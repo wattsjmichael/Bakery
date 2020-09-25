@@ -29,7 +29,11 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "K:\\Epicodus-Projects\\CSharp\\Bakery.Solution\\Bakery\\Bakery.csproj": {
+                "projectPath": "K:\\Epicodus-Projects\\CSharp\\Bakery.Solution\\Bakery\\Bakery.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -53,6 +57,58 @@
               "target": "Package",
               "version": "[15.0.0, )"
             },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "K:\\Epicodus-Projects\\CSharp\\Bakery.Solution\\Bakery\\Bakery.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "K:\\Epicodus-Projects\\CSharp\\Bakery.Solution\\Bakery\\Bakery.csproj",
+        "projectName": "Bakery",
+        "projectPath": "K:\\Epicodus-Projects\\CSharp\\Bakery.Solution\\Bakery\\Bakery.csproj",
+        "packagesPath": "C:\\Users\\WATTS\\.nuget\\packages\\",
+        "outputPath": "K:\\Epicodus-Projects\\CSharp\\Bakery.Solution\\Bakery\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\WATTS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
